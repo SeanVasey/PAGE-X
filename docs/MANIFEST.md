@@ -14,6 +14,9 @@ Overview of major files and directories in this repository.
 | `CODE_OF_CONDUCT.md` | Contributor Covenant Code of Conduct |
 | `.editorconfig` | Editor consistency settings |
 | `.gitignore` | Git ignore rules |
+| `index.html` | Core web application — upload, paginate, export |
+| `manifest.json` | PWA manifest for installability and theming |
+| `sw.js` | Service worker for offline caching |
 
 ## Directories
 
