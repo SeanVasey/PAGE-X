@@ -19,7 +19,7 @@
 - **Frontend**: Vanilla HTML, CSS, JavaScript (no build step)
 - **PDF Generation**: [jsPDF](https://github.com/parallax/jsPDF) v2.5.1
 - **PDF Parsing**: [pdf.js](https://mozilla.github.io/pdf.js/) v3.11.174
-- **DOCX Generation**: [docx](https://github.com/dolanminda/docx) v8.2.3
+- **DOCX Generation**: [docx](https://github.com/dolanmiu/docx) v8.2.3
 - **Fonts**: Google Fonts (Bebas Neue, Reddit Sans, Space Mono)
 
 ## Getting Started
