@@ -26,7 +26,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Expanded `README.md` with project overview, tech stack, and usage instructions
 - `docs/MANIFEST.md` — file manifest
 
-### Fixed
+### Fixed (Historical)
 
 - CSS custom properties: replaced EN DASH (U+2013) with correct double hyphens in all declarations and var() references
 - Removed markdown code fence artifacts from HTML template
