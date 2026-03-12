@@ -1,0 +1,12 @@
+{
+  "name": "PAGE•X — Page Extraction",
+  "short_name": "PAGE•X",
+  "description": "Extract, paginate, and print oversized media into properly formatted documents.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0a0e14",
+  "theme_color": "#0a0e14",
+  "orientation": "portrait-primary",
+  "categories": ["utilities", "productivity"],
+  "lang": "en"
+}
