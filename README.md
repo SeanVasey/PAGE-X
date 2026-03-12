@@ -17,9 +17,10 @@
 ## Tech Stack
 
 - **Frontend**: Vanilla HTML, CSS, JavaScript (no build step)
+- **Runtime dependencies**: Loaded from jsDelivr CDN for stable browser delivery
 - **PDF Generation**: [jsPDF](https://github.com/parallax/jsPDF) v2.5.1
-- **PDF Parsing**: [pdf.js](https://mozilla.github.io/pdf.js/) v3.11.174
-- **DOCX Generation**: [docx](https://github.com/dolanmiu/docx) v8.2.3
+- **PDF Parsing**: [pdf.js (pdfjs-dist)](https://github.com/mozilla/pdfjs-dist) v3.11.174
+- **DOCX Generation**: [docx](https://github.com/dolanmiu/docx) v8.5.0
 - **Fonts**: Google Fonts (Bebas Neue, Reddit Sans, Space Mono)
 
 ## Getting Started
