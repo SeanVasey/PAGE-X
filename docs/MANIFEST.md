@@ -17,6 +17,9 @@ Overview of major files and directories in this repository.
 | `index.html` | Core web application — upload, paginate, export |
 | `manifest.json` | PWA manifest for installability and theming |
 | `sw.js` | Service worker for offline caching |
+| `.markdownlint-cli2.jsonc` | Markdownlint configuration (rules for CI) |
+| `.lycheeignore` | Excluded URLs for link checker |
+| `vercel.json` | Vercel static site deployment configuration |
 
 ## Directories
 

@@ -7,6 +7,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [Unreleased]
 
 ### Added
+
 - `index.html` — Core web application with image/PDF/DOCX pagination
 - `manifest.json` — PWA manifest for installability
 - `sw.js` — Service worker for offline caching
@@ -20,7 +21,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - `docs/MANIFEST.md` — file manifest
 
 ### Fixed
+
 - CSS custom properties: replaced EN DASH (U+2013) with correct double hyphens in all declarations and var() references
 - Removed markdown code fence artifacts from HTML template
 - Fixed broken docx library link in README (`dolanminda` → `dolanmiu`)
 - Added `.lycheeignore` to prevent CI failures on owner-controlled external sites
+- Markdownlint CI failure: moved inline config to `.markdownlint-cli2.jsonc` file (inline `config` parameter not supported)
+- Node.js 20 deprecation warnings: upgraded `actions/checkout` v4 → v6, `markdownlint-cli2-action` v19 → v22
+
+### Added (CI/Deployment)
+
+- `.markdownlint-cli2.jsonc` — external markdownlint configuration
+- `.github/workflows/deploy-pages.yml` — GitHub Pages deployment workflow
+- `vercel.json` — Vercel static site deployment configuration

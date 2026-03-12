@@ -1,5 +1,15 @@
 # Task Plan
 
+## Session 3: Fix CI Dependencies & Add Deployment
+
+- [x] Create `.markdownlint-cli2.jsonc` config file (fix inline config error)
+- [x] Update `ci.yml`: upgrade actions/checkout v4→v6, markdownlint-cli2-action v19→v22, remove inline config
+- [x] Add GitHub Pages deployment workflow (`deploy-pages.yml`)
+- [x] Add Vercel deployment config (`vercel.json`)
+- [x] Update CHANGELOG.md, README.md, docs/MANIFEST.md
+- [x] Update tasks/lessons.md with CI config lessons
+- [ ] Commit, push, and create PR
+
 ## Session 2: Core Application Implementation
 
 - [x] Create `index.html` with full application (CSS + HTML + JS)
@@ -24,4 +34,4 @@
 
 ## Review
 
-Core application implemented as a single-page client-side web app. All bugs from the original template fixed (EN DASH CSS properties, markdown artifacts). PWA manifest and service worker created for installability and offline use.
+Session 3: Fixed broken CI pipeline (markdownlint config error, Node.js 20 deprecation). Added GitHub Pages and Vercel deployment support. All action versions upgraded to latest (checkout v6, markdownlint-cli2-action v22).
