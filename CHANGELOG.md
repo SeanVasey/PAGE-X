@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+### Fixed
+
+- CI workflow reliability: corrected `actions/checkout` from invalid `v6` to supported `v4` in CI and Pages workflows
+- PWA install/runtime stability: removed cross-origin CDN URLs from service worker pre-cache list to prevent install failures
+- Runtime dependency loading: switched browser script CDNs to stable jsDelivr package URLs and aligned PDF worker path
+
 ### Added
 
 - `index.html` — Core web application with image/PDF/DOCX pagination
@@ -27,7 +33,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Fixed broken docx library link in README (`dolanminda` → `dolanmiu`)
 - Added `.lycheeignore` to prevent CI failures on owner-controlled external sites
 - Markdownlint CI failure: moved inline config to `.markdownlint-cli2.jsonc` file (inline `config` parameter not supported)
-- Node.js 20 deprecation warnings: upgraded `actions/checkout` v4 → v6, `markdownlint-cli2-action` v19 → v22
+- Node.js 20 deprecation warnings: upgraded `markdownlint-cli2-action` v19 → v22
 
 ### Added (CI/Deployment)
 
