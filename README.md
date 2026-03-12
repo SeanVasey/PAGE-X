@@ -46,16 +46,28 @@ Then navigate to `http://localhost:8000` (if using a server).
 3. **Process** — Click "Extract & Paginate"
 4. **Download** — Save the paginated output
 
+## Deployment
+
+### GitHub Pages
+
+Pushes to `main` automatically deploy via the `deploy-pages.yml` workflow using the official GitHub Pages actions. Enable Pages in your repository settings under **Settings → Pages → Source → GitHub Actions**.
+
+### Vercel
+
+Import the repository into Vercel. The included `vercel.json` handles static site configuration — no build command or framework selection needed.
+
 ## Project Structure
 
-```
+```text
 PAGE-X/
-├── .github/workflows/   # CI/CD pipelines
+├── .github/workflows/   # CI/CD pipelines (ci.yml, deploy-pages.yml)
 ├── docs/                 # Documentation and manifests
 ├── tasks/                # Task tracking (todo.md, lessons.md)
 ├── index.html            # Core web application
 ├── manifest.json         # PWA manifest
 ├── sw.js                 # Service worker for offline support
+├── vercel.json           # Vercel deployment configuration
+├── .markdownlint-cli2.jsonc  # Markdownlint configuration
 ├── CLAUDE.md             # AI assistant conventions
 ├── CHANGELOG.md          # Change log
 ├── CODE_OF_CONDUCT.md    # Contributor code of conduct
