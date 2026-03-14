@@ -8,5 +8,13 @@
   "theme_color": "#0a0e14",
   "orientation": "portrait-primary",
   "categories": ["utilities", "productivity"],
-  "lang": "en"
+  "lang": "en",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
 }
