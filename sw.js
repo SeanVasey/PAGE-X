@@ -1,11 +1,12 @@
 // PAGE•X Service Worker v1.1
-const CACHE_NAME = 'pagex-v2';
+const CACHE_NAME = 'pagex-v3';
 
 const PRECACHE_URLS = [
   './',
   './index.html',
   './manifest.json',
-  './sw.js'
+  './sw.js',
+  './icon.svg'
 ];
 
 self.addEventListener('install', (event) => {
