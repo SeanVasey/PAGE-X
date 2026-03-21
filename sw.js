@@ -1,5 +1,5 @@
 // PAGE•X Service Worker v1.1
-const CACHE_NAME = 'pagex-v3';
+const CACHE_NAME = 'pagex-v4';
 
 const PRECACHE_URLS = [
   './',
