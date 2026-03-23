@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+### Changed
+
+- `CLAUDE.md` — Rewritten with expanded security standards (auth, input validation, supply chain, production hardening), CI/CD deployment specs (Vercel + GitHub Pages), project structure template, and README spec
+- `README.md` — Added centered logo, shields.io badge row (CI, deploy, license, live demo), tech stack table, live demo link, icon assets in project structure
+
 ### Fixed
 
 - CI workflow reliability: corrected `actions/checkout` from invalid `v6` to supported `v4` in CI and Pages workflows
