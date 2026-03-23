@@ -1,5 +1,14 @@
 # Task Plan
 
+## Session 4: Update Documentation Standards
+
+- [x] Replace `CLAUDE.md` with expanded standards (security, CI/CD, deployment, README spec)
+- [x] Update `README.md` — centered logo, badge row, tech stack table, demo link, icon assets
+- [x] Update `CHANGELOG.md` with documentation changes
+- [x] Update `tasks/todo.md` with session progress
+- [ ] Run CI checks (markdown lint, link validation)
+- [ ] Commit and push
+
 ## Session 3: Fix CI Dependencies & Add Deployment
 
 - [x] Create `.markdownlint-cli2.jsonc` config file (fix inline config error)
@@ -33,5 +42,7 @@
 - [x] Create `docs/MANIFEST.md`
 
 ## Review
+
+Session 4: Rewrote CLAUDE.md with comprehensive security, CI/CD, and deployment standards. Updated README with centered logo, shields.io badges, tech stack table, and live demo link.
 
 Session 3: Fixed broken CI pipeline (markdownlint config error, Node.js 20 deprecation). Added GitHub Pages and Vercel deployment support. All action versions upgraded to latest (checkout v6, markdownlint-cli2-action v22).
